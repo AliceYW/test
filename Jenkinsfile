@@ -23,5 +23,10 @@ hostname -I'''
         }
       }
     }
+    stage('') {
+      steps {
+        sh 'echo hello'
+      }
+    }
   }
 }
